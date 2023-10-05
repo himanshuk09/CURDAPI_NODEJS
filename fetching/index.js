@@ -42,4 +42,21 @@ $(document).ready(()=>{
             console.log(error);
         }
     });
+    // const fetchFun=async function (res,req){
+    //     try{
+    //             const  data=await fetch(webServiceUrl)
+    //             res.jsonp({
+    //                 Message: "user Added successfully ",
+    //                 status: data,
+    //                 result: userData
+    //             })
+    //     }catch (e) {
+    //         res.jsonp({
+    //             Message: "unable to add user ",
+    //             status: false,
+    //             result: e
+    //         })
+    //     }
+    // }
 })
+
